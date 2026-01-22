@@ -1,0 +1,19 @@
+# Core RAG + LangChain + OpenAI
+langchain==1.2.3
+langchain-openai==1.1.7
+openai==2.15.0
+
+# Vector Store (CPU version)
+faiss-cpu==1.13.2
+
+# Tokenizer used by OpenAI models
+tiktoken==0.4.9
+
+# Utilities commonly used (but not 100% needed)
+python-dotenv==1.0.0
+pandas==2.2.1
+numpy==1.26.4
+jupyter==1.0.0
+
+# (Optional) community integrations if using extra loaders
+langchain-community==0.4.1
